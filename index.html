@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <div class="dropdown">
+            <button class="dropdown__dropbtn"><i class="material-icons" style="font-size:36px">menu</i></button>
+            <div class="dropdown__content">
+                <a class="dropdown__content__link" href="#"><img src="images/home.jpg" alt=""> Home</a>
+                <a class="dropdown__content__link" href="#"><img src="images/circkle.jpg" alt=""> Destinations</a>
+                <a class="dropdown__content__link" href="#"><img src="images/planeheader.jpg" alt=""> Spaceships</a>
+            </div>
+        </div>
+        <div class="header-wrap">
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list__element">
+                        <a class="nav__list__element__link-logo" href="#">
+                            <span class="bold-logo">C</span>o<span class="bold-logo">sm</span>o<span class="bold-logo">s</span>
+                        </a>
+                    </li>
+                    <li class="nav__list__element">
+                        <a class="nav__list__element__link-menu" href="#"><img class="nav__list__element-imgs" src="images/home.jpg" alt="">Home</a>
+                    </li>
+                    <li class="nav__list__element">
+                        <a class="nav__list__element__link-menu" href="#"><img class="nav__list__element-imgs" src="images/circkle.JPG" alt=""> Destinations</a>
+                    </li>
+                    <li class="nav__list__element">
+                        <a class="nav__list__element__link-menu" href="#"><img class="nav__list__element-imgs" src="images/planeheader.jpg" alt="">Spaceships</a>
+                    </li>
+                    <li class="nav__list__element">
+                        <a class="nav__list__element__shopping" href="">
+                            <img class="nav__list__element__shopping__img" src="images/shoppinglist.jpg" alt="">
+                            <p class="nav__list__element__shopping__elements-in-cart">0</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__shopping-cart">
+                <a class="nav__shopping-cart__icon" href="">
+                    <img class="nav__shopping-cart__icon-img" src="images/shoppinglist.jpg" alt="">
+                    <p class="nav__shopping-cart__icon-number">0</p>
+                </a>
+            </div>   
+        </div>
+    </header>
+    <main class="main container-fluid">
+        <div class="carousel-wrap">
+            <div class="row">
+              <div class="col-1 carousel-control left custom-btn-wrap flex-center">
+                <div class="previous-btn">
+                  <i class="fa fa-angle-left previous-btn__icon" style="font-size:36px"></i>
+                </div>
+              </div>
+              <div class="col">
+                <div id="gallery" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="display--desktop">
+                        <div class="row">
+                          <div class="col-8 col-no-padding">
+                            <div class="photo-wrap">
+                              <div class="photo__description">
+                                <span class="photo__description__title">ENCELADUS</span>
+                                <span class="photo__description__info">AUPopulation: 3920</span>
+                                <span class="photo__description__info">The Saturn System</span>
+                                <span class="photo__description__info">Distance: 9.5</span>
+                              </div>
+                              <img class="img-fluid photo" src="images/layer2.jpg" alt="Image 1"/>
+                            </div>
+                          </div>
+                          <div class="col-4 slide-description-wrap col-no-padding">
+                            <div class="slide-description">
+                              <h2>Enceladus</h2>
+                              <p>Is the sixth largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>
+                              <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+                              <div class="slide-description__ticket">
+                                <div class="slide-description__ticket__price">
+                                  <h2 class="slide-description__ticket__price__amount">999.99 &#8364;</h2>
+                                  <p class="slide-description__ticket__price__description">One way ticket</p>
+                                </div>
+                                <button class="slide-description__ticket__buy-btn" type="button" name="button">Purchase</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="display--mobile">
+                        <div class="row">
+                          <div class="col-12 col-no-padding">
+                            <div class="photo-wrap">
+                              <div class="photo__description">
+                                <span class="photo__description__title">Enceladus</span>
+                                <span class="photo__description__info">AUPopulation: 3920</span>
+                                <span class="photo__description__info">The Saturn System</span>
+                                <span class="photo__description__info">Distance: 9.5</span>
+                              </div>
+                              <img class="img-fluid photo" src="images/layer2.jpg" alt="Image 1"/>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12 slide-description-wrap col-no-padding">
+                            <div class="slide-description">
+                              <h2>Enceladus</h2>
+                              <p>Is the sixth largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>
+                              <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+                              <div class="slide-description__ticket">
+                                <div class="slide-description__ticket__price">
+                                  <h2 class="slide-description__ticket__price__amount">999.99 &#8364;</h2>
+                                  <p class="slide-description__ticket__price__description">One way ticket</p>
+                                </div>
+                                <button class="slide-description__ticket__buy-btn" type="button" name="button">Purchase</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="display--desktop">
+                        <div class="row">
+                          <div class="col-8 col-no-padding">
+                            <div class="photo-wrap">
+                              <div class="photo__description">
+                                <span class="photo__description__title">Mars</span>
+                                <span class="photo__description__info">AUPopulation: 3920</span>
+                                <span class="photo__description__info">The Saturn System</span>
+                                <span class="photo__description__info">Distance: 9.5</span>
+                              </div>
+                              <img class="photo" src="images/mars.jpg" alt="Image 1"/>
+                            </div>
+                          </div>
+                          <div class="col-4 slide-description-wrap col-no-padding">
+                            <div class="slide-description">
+                              <h2>Mars</h2>
+                              <p>Is the sixth largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>
+                              <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+                              <div class="slide-description__ticket">
+                                <div class="slide-description__ticket__price">
+                                  <h2 class="slide-description__ticket__price__amount">999.99 &#8364;</h2>
+                                  <p class="slide-description__ticket__price__description">One way ticket</p>
+                                </div>
+                                <button class="slide-description__ticket__buy-btn" type="button" name="button">Purchase</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="display--mobile">
+                        <div class="row">
+                          <div class="col-12 col-no-padding">
+                            <div class="photo-wrap">
+                              <div class="photo__description">
+                                <span class="photo__description__title">Mars</span>
+                                <span class="photo__description__info">AUPopulation: 3920</span>
+                                <span class="photo__description__info">The Saturn System</span>
+                                <span class="photo__description__info">Distance: 9.5</span>
+                              </div>
+                              <img class="img-fluid photo" src="images/mars.jpg" alt="Image 1"/>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12 slide-description-wrap col-no-padding">
+                            <div class="slide-description">
+                              <h2>Mars</h2>
+                              <p>Is the sixth largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>
+                              <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+                              <div class="slide-description__ticket">
+                                <div class="slide-description__ticket__price">
+                                  <h2 class="slide-description__ticket__price__amount">999.99 &#8364;</h2>
+                                  <p class="slide-description__ticket__price__description">One way ticket</p>
+                                </div>
+                                <button class="slide-description__ticket__buy-btn" type="button" name="button">Purchase</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                  <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-1 carousel-control right custom-btn-wrap flex-center">
+                <div class="next-btn">
+                  <i class="fa fa-angle-right next-btn__icon" style="font-size:36px"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-12 preparation">
+            <ul class="preparation__list">
+                <li class="preparation__list__element">
+                    <figure>
+                        <img class="preparation__list__element__imgs" src="images/package.jpg" alt="">
+                        <figcaption class="preparation__list__element__figcaption">pack</figcaption>
+                    </figure>
+                </li>
+                <li class="preparation__list__element">
+                    <i class="fa fa-angle-right preparation__list__element__right-direction" style="font-size:36px"></i>
+                    <i class="fa fa-angle-down preparation__list__element__down-direction" style="font-size:36px"></i>
+                </li>
+                <li class="preparation__list__element">
+                    <figure>
+                        <img class="preparation__list__element__imgs" src="images/plane1.jpg" alt="">
+                        <figcaption class="preparation__list__element__figcaption">fly</figcaption>
+                    </figure>
+                </li>
+                <li class="preparation__list__element">
+                    <i class="fa fa-angle-right preparation__list__element__right-direction" style="font-size:36px"></i>
+                    <i class="fa fa-angle-down preparation__list__element__down-direction" style="font-size:36px"></i>
+                </li>
+                <li class="preparation__list__element">
+                    <figure>
+                        <img class="preparation__list__element__imgs" src="images/live.png" alt="" >
+                        <figcaption class="preparation__list__element__figcaption">live</figcaption>
+                    </figure>
+                </li>
+                <i class="fa fa-angle-right icon preparation__list__element__right-direction" style="font-size:36px"></i>
+                <i class="fa fa-angle-down preparation__list__element__down-direction" style="font-size:36px"></i>
+                <li class="preparation__list__text">
+                    <div class="preparation__list__text__wrap">
+                        <p class="preparation__list__text__wrap-first-row" ><b>Enjoy</b></p>
+                        <p class="preparation__list__text__wrap-second-row">A new world!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 info">
+            <h2 class="info__title">PFL package</h2>
+            <div class="info__horizontal-line"></div>
+            <div class="info__wrap"> 
+                <p class="info__wrap__description">Out pack fly live package includes lpsum dolor sit amet, consectetur adipiscing elit. 
+                    Vivamus ex ante,  tristique sed elit id, scelerisque scelerisque risus. Nulla malesuada
+                    suscipit vehicula. Vestibulum mauris purus, malesuada eget laoreet et, mattis eu
+                    purus. Sed arcu enim, rhoncus non porta eu, finibus sed  erat. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Sed laoreet vitae nisi vel ornare. 
+                    Cras velit neque, tincidunt et purus eu, semper dignissim risus. Quisque
+                    gravida interdum ipsum ac dignissim.  Aenean fringilla libero leo,
+                    vitae varius magna convallis vel. Morbi luctus ligula erat, vitae pulvinar
+                    nunc  pretium nec. Integer id facilisis nibh. In porta at tellus eget consectetur.
+                    Vestibulum nisl nunc, euismod  a aliquet sit amet, fermentum in massa. 
+                </p>
+                <p class="info__wrap__description">
+                    Nunc quis eros facilisis, sagittis ex vitae, mattis sapien. Duis feugiat dictum 
+                    vehicula. Nullam vestibulum  tellus nisi, eu euismod velit finibus et. 
+                    Aliquam id risus non sem pulvinar pulvinar in quis tellus.  Pellentesque 
+                    eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, 
+                    magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel 
+                    massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet. 
+                </p>
+                <p class="info__wrap__description">
+                    Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget 
+                    ipsum dignissim, molestie  est vitae, tincidunt elit. Pellentesque suscipit, 
+                    magna ac molestie luctus, magna massa placerat purus,  in dictum urna dui vel massa. 
+                    Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet.
+                </p>
+                <button class="info__wrap__btn">Checkout</button>  
+            </div>
+        </div>
+    </main>
+    <footer class="footer container-fluid">
+        <div class="col-12 footer__wrap">
+            <span class="footer__wrap__coppyright">
+                Copyright COSMOS 2022. All rights reserved.
+            </span>
+            <span class="footer__wrap__info">
+                All data and company references are purely fictitious and
+            </span>
+            <span class="footer__wrap__info">
+                shouldnt be confused with real world entities or names.
+            </span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.carousel-control.left').click(function() {
+        $('#gallery').carousel('prev');
+      });
+
+      $('.carousel-control.right').click(function() {
+        $('#gallery').carousel('next');
+      });
+    </script>
+</body>
+</html>
